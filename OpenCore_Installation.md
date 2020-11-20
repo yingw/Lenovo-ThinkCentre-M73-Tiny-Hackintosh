@@ -13,6 +13,7 @@
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg) - 目前版本 0.6.3（2020-11），安装手册 [dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) - 版本 2.16.0.0，支持 OpenCore 0.6.3
 - [ProperTree](https://github.com/corpnewt/ProperTree) - plist 配置文件编辑器
+- [Hackintool](https://github.com/headkaze/Hackintool) - 工具集，可修补、升级补丁
 
 ## ACPI
 
@@ -23,25 +24,25 @@
 
 aml 文件放到 U 盘 `EFI/OC/ACPI` 目录
 
-### Kernel (Kext)
+## Kernel (Kext)
 
 - [Lilu](https://github.com/acidanthera/Lilu/releases) - 各种驱动的核心平台
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases) - 声卡驱动
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) - 显卡驱动
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) - SMC 内核仿真、传感器
-- [AirportBrcmFixup.kext](https://github.com/acidanthera/airportbrcmfixup/releases) - Broadcom 无线网卡所需的 Airport 补丁
-- [IntelMausiEthernet.kext](https://github.com/acidanthera/IntelMausi) - Intel 有线网卡驱动程序
+- [AirportBrcmFixup](https://github.com/acidanthera/airportbrcmfixup/releases) - Broadcom 无线网卡所需的 Airport 补丁
+- [IntelMausi](https://github.com/acidanthera/IntelMausi) - Intel 有线网卡驱动程序
 
 kext 文件（目录）放到 U 盘 `EFI/OC/Kexts` 目录，dSYM 是编译文件不需要
 
-### UEFI
+## UEFI
 
 - OpenRuntime.efi
 - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 
 放到 `EFI/OC/Drivers` 目录
 
-### Config.plist
+## Config.plist
 
 根据官网说明配置 [config.plist](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html)
 
