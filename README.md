@@ -9,8 +9,8 @@
 系统 | 版本
 ---|---
 M73 BIOS | [FHKT85A](https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m73/10ax/10axa2ejjp/pc07s4kd/downloads/ds038325-flash-bios-update-thinkcentre-m73-tiny-10ax-10ay) (2020-06-23)
-OpenCore | [v0.6.3](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.3) (2020-11)
-MacOS | macOS Catalina 10.15.7 (19H15)
+OpenCore | [v0.6.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.4) (2020-12)
+MacOS | macOS Catalina 10.15.7 (19H15) 
 
 硬件规格：
 
@@ -45,7 +45,7 @@ M73 详细规格 | <https://support.lenovo.com/us/en/solutions/PD029621>
 - 睡眠后蓝牙失效
 - USB 定制
 
-## 使用教程 (Windows)
+## 使用教程
 
 1. 使用 [gibMacOS](https://github.com/corpnewt/gibMacOS) 下载镜像，烧录 Mac 安装 U 盘
 2. 拷贝 EFI 到 Boot 分区，用 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 更换序列号（型号选：`iMac14,4`）
